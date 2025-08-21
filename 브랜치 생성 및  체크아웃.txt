@@ -1,5 +1,9 @@
+1. 브랜치 생성 후 체크아웃
 git checkout -b A main
    git branch A main # main 브랜치를 기반으로 A 브랜치 생성
    git checkout A    # A브랜치로 이동
 
    # 위 2 기능을 한번에. 즉 A 브랜치를 생성하고 A브랜치로 체크아웃 하는 기능을 의미함.
+
+2. 특정 커밋시점으로 파일 되돌리기
+git checkout HEAD~1 index.html # 1커밋 전으로 되돌리기
