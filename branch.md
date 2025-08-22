@@ -53,8 +53,8 @@ Git 2.28 버전 이후부터는 기본 브랜치 이름이 master 대신 main으
 
 - **브랜치 확인**
   ```bash
-  git branch # 로컬브랜치 확인
-  git branch -r #원격브랜치 확인 
+  git branch    # 로컬브랜치 확인
+  git branch -r # 원격브랜치 확인 
   ```
   ![샘플 이미지](images/branch_conf.jpg)  
 
