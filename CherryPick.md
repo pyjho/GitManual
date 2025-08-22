@@ -15,6 +15,7 @@
 
         #### <font color=green> * 이런 경우 파일을 수작업으로 정리해줘야 함</font>
          ![샘플 이미지](images/cherrypick_err_text.jpg) 
+         
          서로 다른 브랜치의 파일의 수정내용 
           1-1, 2-2를 어느 내용으로 합칠 건지 정해야 함.
           <br>
@@ -27,4 +28,4 @@
           git add 파일명
           git commit     # Cherry-pick중이면 메시지 자동생성됨
           ```   
-          
+    - **Dependancy**      
