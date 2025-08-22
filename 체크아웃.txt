@@ -7,3 +7,5 @@ git checkout -b A main
 
 2. 특정 커밋시점으로 파일 되돌리기
 git checkout HEAD~1 index.html # 1커밋 전으로 되돌리기
+
+
