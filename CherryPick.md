@@ -28,4 +28,4 @@
           git add 파일명
           git commit     # Cherry-pick중이면 메시지 자동생성됨
           ```   
-    - **Dependancy**      
+    - **Dependancy**       

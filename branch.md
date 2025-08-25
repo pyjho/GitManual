@@ -24,7 +24,7 @@ Git 2.28 버전 이후부터는 기본 브랜치 이름이 master 대신 main으
   git branch A main # main 브랜치를 기반으로 A 브랜치 생성
   git checkout A    # A브랜치로 이동
   ```
-    - 로컬에 생성된 브랜치를 원격으로 전송
+    - 로컬에 생성된 브랜치를 원격으로 전송 
   ```bash
   git push -u origin 브랜치명
   ``` 
