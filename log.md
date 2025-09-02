@@ -4,3 +4,5 @@ git log --oneline --graph --decorate --all
 ```
 
 ![샘플 이미지](images/log_graphic.jpg) 
+
+main rebase test 1
