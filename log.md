@@ -5,8 +5,6 @@ git log --oneline --graph --decorate --all
 
 ![샘플 이미지](images/log_graphic.jpg) 
 
-<<<<<<< HEAD
-
 - 간략 로그
 ```bash
 git log --pretty=short
