@@ -5,6 +5,7 @@ git log --oneline --graph --decorate --all
 
 ![샘플 이미지](images/log_graphic.jpg) 
 
+<<<<<<< HEAD
 
 - 간략 로그
 ```bash
@@ -32,3 +33,6 @@ git log 파일명
  
 ![샘플 이미지](images/log_oneline.jpg)
 (2) 커밋내역을 한줄로 표시
+=======
+main rebase test 1
+>>>>>>> aa6c93c60a6bfe5b03eba23456da2d3970f2bca6
