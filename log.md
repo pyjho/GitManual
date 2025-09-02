@@ -31,5 +31,5 @@ git log 파일명
 ![샘플 이미지](images/log_stat.jpg) <br>
 (1) HEAD 커밋에서 <font color=green>+++</font> 3개의 수정내역과 <font color=red>-</font> 1개의 삭제 내역이 있음을 보여줌.
  
-![샘플 이미지](images/log_oneline.jpg)
+![샘플 이미지](images/log_oneline.jpg) <br>
 (2) 커밋내역을 한줄로 표시
