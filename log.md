@@ -22,8 +22,9 @@ git log 파일명
 
 - 로그명령어 옵션
 ```bash
- 1) git log --stat : 히스토리를 출력
- 2) git log --pretty=oneline : 각 커밋을 한줄로 보여줌
+ 1) git log --stat           # 히스토리를 출력
+ 2) git log --pretty=oneline # 각 커밋을 한줄로 보여줌
+ 3) git log --pretty=short   # 로그내용을 첫번째 줄만 보여줌
 ```
 
 ![샘플 이미지](images/log_stat.jpg) <br>
