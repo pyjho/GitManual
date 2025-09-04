@@ -33,3 +33,4 @@ git log 파일명
 ![샘플 이미지](images/log_oneline.jpg) <br>
 (2) 커밋내역을 한줄로 표시
 
+sss
