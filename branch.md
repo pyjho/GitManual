@@ -12,7 +12,7 @@
  여기서는  <font color="gree">init.defaultBranch=main</font> 설정을 적용한 것이고, 이는 초기화될 때 기본 브랜치 이름을 main으로 하라는 의미입니다.
 
 Git 2.28 버전 이후부터는 기본 브랜치 이름이 master 대신 main으로 바뀌는 추세인데, 아직 환경에 따라 master로 만들어지는 경우가 있습니다.
-이때  <font color="gree">-c init.defaultBranch=main</font>을 붙이면, 전역 설정을 바꾸지 않고도 딱 이번 init 실행에 한해 main 브랜치를 기본 브랜치로 생성하게 됩니다.
+이때  <font color="green">-c init.defaultBranch=main</font>을 붙이면, 전역 설정을 바꾸지 않고도 딱 이번 init 실행에 한해 main 브랜치를 기본 브랜치로 생성하게 됩니다.
 
 <br>
 
@@ -51,6 +51,25 @@ Git 2.28 버전 이후부터는 기본 브랜치 이름이 master 대신 main으
   ```
   <font color=red>현재 체크아웃중인 브랜치에서는 삭제 불가. 다른 브랜치로 체크아웃 후 삭제가능</Font>
 
+- **브랜치 상세내용 확인**
+  ```bash
+  git branch -v  
+  ```
+- **이전 브랜치로 이동 (checkout)**
+  ```bash
+  git branch -  # 브랜치 이동시 현재 작업중인 워킹디렉토리를 정리해야 함
+  ```
+- **출력될 커밋갯수 제한**
+  ```bash
+  git show-branch --more=10 # 커밋갯수 10개만 조회함.
+  ```
+
+- **브랜치의 마지막 커밋 Hash 조회**
+  ```bash
+  git rev-parse 브랜치명 # 해당 브랜치의 마지막 커밋의 Hash값 (HEAD)
+  ```
+
+
 - **브랜치 확인**
   ```bash
   git branch    # 로컬브랜치 확인
@@ -58,4 +77,4 @@ Git 2.28 버전 이후부터는 기본 브랜치 이름이 master 대신 main으
   ```
   ![샘플 이미지](images/branch_conf.jpg)  
 
-test
+
