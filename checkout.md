@@ -13,6 +13,10 @@ git checkout -    # 이전 브랜치로 체크아웃
 - **특정 커밋시점으로 파일 되돌리기**
  ```bash
 git checkout HEAD~1 index.html # 1커밋 전으로 되돌리기
+git checkout HEAD~2            # 두개 커밋 전으로 되돌리기
  ```
-
+- **현재시점으로 커밋 되돌리기**
+```bash
+git checkout -                 # - 를 입력하여 현재시점으로 돌아오기
+```
 
