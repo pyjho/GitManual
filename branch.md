@@ -76,5 +76,7 @@ Git 2.28 버전 이후부터는 기본 브랜치 이름이 master 대신 main으
   git branch -r # 원격브랜치 확인 
   ```
   ![샘플 이미지](images/branch_conf.jpg)  
-
+  
+  로컬 브랜치 + 원격브랜치 정보 모두 조회
+  ![샘플 이미지](images/gitBranch_a.jpg)  
 
