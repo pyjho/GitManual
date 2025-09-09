@@ -75,8 +75,48 @@ Git 2.28 버전 이후부터는 기본 브랜치 이름이 master 대신 main으
   git branch    # 로컬브랜치 확인
   git branch -r # 원격브랜치 확인 
   ```
-  ![샘플 이미지](images/branch_conf.jpg)  
-  
-  로컬 브랜치 + 원격브랜치 정보 모두 조회
-  ![샘플 이미지](images/gitBranch_a.jpg)  
+  ![](images/branch_conf.jpg)  
 
+  로컬 브랜치 + 원격브랜치 정보 모두 조회
+  ![](images/gitBranch_a.jpg)  
+
+- **브랜치의 트래킹 정보조회**
+  ```bash
+  git branch -vv    # 원격의 어떤 브랜치와 연결되는지에 대한 정보
+  ```
+    
+  ![](images/gitBranch_vv.jpg)  
+
+- **원격 브랜치 복사**
+
+  원격 저장소와 로컬 저장소의 브랜치 목록은 서로 다를 수 있음. 다른 개발자가 원격 저장소에 새로운 리모트 브랜치를 생성할 수 있기 때문임. 이렇게 생성된 원격 저장소의 리모트 브랜치를 이용해서 로컬 저장소에도 새로운 브랜치를 생성하여 동기화할 수 있음.
+
+  ```bash
+  git checkout -b 새이름 origin/브랜치이름
+  ```
+
+  ```bash
+  git fetch       # 원격 저장소의 브랜치 정보를 받아옴.
+  git branch -r   # 원격 브랜치 확인
+  git checkout -b aaa origin/aaa # 원격브랜치를 기반으로 로컬저장소에 aaa 브랜치 생성   
+  ```
+
+- **업스트림 연결**
+
+  기존에 있는 브랜치를 업스트림으로 직접 설정할 수 있음. 브랜치를 생성 후 직접 트래킹 브랜치를 지정할 수 있음. 업스트림을 직접 설정하면 원격 저장소로 트래킹 브랜치가 설정됨.
+
+  ```bash
+  git branch -u origin/브랜치이름
+  ```
+  -u 옵션은 --set-upstream-to의 약자.
+
+   - 원격 저장소에 브랜치 생성
+
+      ![](images/crBranch.jpg)  
+   - 원격 저장소의 생성된 브랜치를 가져옴 (Fetch)
+   
+      ![](images/upstream_1.jpg)  
+
+   - bug 브랜치 생성 후 원격 저장소 origin/bbb를 업스트림 설정함
+
+      ![](images/upstream_2.jpg)  
