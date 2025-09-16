@@ -6,3 +6,6 @@
    ```bash
    git clean -f   # -f : Force 강제 취소처리 
    ```  
+
+   <font color=yellow>* 주의할점은 현재 추적관리 되지 않는 신규 파일들도 모두 지워짐. </font>
+   
